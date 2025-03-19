@@ -58,3 +58,9 @@ exercises.c:63:16: error: dereferencing pointer to incomplete type 'List {aka st
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ff1d015
+Wed, Mar 19, 2025  9:44:52 AM: 
+ exercises.c | 7 ++-----
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+ tests:  1|4
+total_score: 10/70
+b3fb0d4

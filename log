@@ -24,3 +24,20 @@ exercises.c:62:16: error: dereferencing pointer to incomplete type 'List {aka st
 cc1.exe: all warnings being treated as errors
 Compilation failed
 f4d2892
+Wed, Mar 19, 2025  9:29:25 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:61:23: error: comparison between pointer and integer [-Werror]
+    for (int k = 0 ; k != NULL ; k++){
+                       ^~
+exercises.c:62:7: error: invalid use of undefined type 'struct List'
+       cont += L[k] ;
+       ^~~~
+exercises.c:62:16: error: dereferencing pointer to incomplete type 'List {aka struct List}'
+       cont += L[k] ;
+                ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1b402ff

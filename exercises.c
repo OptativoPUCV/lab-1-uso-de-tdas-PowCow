@@ -43,10 +43,11 @@ Al finalizar retorna la lista creada.
 
 List* crea_lista() {
    List* L = create_list();
-   for(int k = 1; k <= 10; k++){
-      int* elemento = (int*)malloc(sizeof(int)) ;
-      *elemento = k ;
-      pushBack(L, elemento) ;
+
+   for (int k = 1 ; k <= 10 ; k++){
+      int* numero = (int*)malloc(sizeof(int)) ;
+      *numero = k ;
+      pushBack(L, numero) ;
    }
    return L;
 }
@@ -58,7 +59,7 @@ retorne la suma de sus elementos.
 */
 int sumaLista(List *L) {
    int cont = 0 ;
-   for (int k = 0 ; k != NULL ; k++){
+   for (int k = 0 ; k != NULL ; k++){ //revisar el null
       cont += L[k] ;
    }
    return cont;

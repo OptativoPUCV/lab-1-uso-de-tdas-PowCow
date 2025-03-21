@@ -123,8 +123,8 @@ int parentesisBalanceados(char *cadena) {
       if (cadena[k] == '(') {
          cont++ ;
       } else if (cadena[k] == ')'){
-         contador-- ;
-         if (contador < 0) return 0 ;
+         cont-- ;
+         if (cont < 0) return 0 ;
       }
 
    }

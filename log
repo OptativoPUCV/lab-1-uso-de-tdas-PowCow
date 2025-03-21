@@ -289,3 +289,9 @@ exercises.c:126:10: error: 'contador' undeclared (first use in this function)
 exercises.c:126:10: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 aedc6e4
+Fri, Mar 21, 2025 12:06:00 PM: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  4|1
+total_score: 50/70
+1a95cf4

@@ -222,3 +222,9 @@ arraylist.h:23:6: note: declared here
       ^~~~~~~~~~~
 Compilation failed
 d02845a
+Fri, Mar 21, 2025 11:09:03 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|2
+total_score: 40/70
+e9bc3e7

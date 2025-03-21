@@ -59,9 +59,9 @@ retorne la suma de sus elementos.
 */
 int sumaLista(List *L) {
    int suma = 0 ;
-   int tam = size(L) ;
-   for (int k = 0 ; k < tam ; k++)
+   for (int k = 0 ; k < *L->size ; k++){
       suma += L[k] ;
+   }
    return suma ;
 }
 

@@ -84,8 +84,8 @@ void eliminaElementos(List*L, int elem){
          pushCurrent(L) ;
          valor = (int*)first(L) ;
       }
-      else 
-         valor = (int*)next(L) ;
+      else {
+         valor = (int*)next(L) ;}
    }
 }
 

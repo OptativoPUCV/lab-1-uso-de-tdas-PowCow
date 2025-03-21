@@ -168,3 +168,18 @@ arraylist.h:23:6: note: declared here
       ^~~~~~~~~~~
 Compilation failed
 ae4622c
+Fri, Mar 21, 2025 11:06:47 AM: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'eliminaElementos':
+exercises.c:84:10: error: too few arguments to function 'pushCurrent'
+          pushCurrent(L) ;
+          ^~~~~~~~~~~
+In file included from exercises.c:6:0,
+                 from test.c:5:
+arraylist.h:23:6: note: declared here
+ void pushCurrent(List *L, void *dato);
+      ^~~~~~~~~~~
+Compilation failed
+8f931ac

@@ -81,3 +81,20 @@ exercises.c:63:7: error: invalid use of undefined type 'struct List'
        ^~~~
 Compilation failed
 dcea46a
+Fri, Mar 21, 2025 10:24:42 AM: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:62:14: error: implicit declaration of function 'size' [-Werror=implicit-function-declaration]
+    int tam = size(L) ;
+              ^~~~
+exercises.c:64:7: error: invalid use of undefined type 'struct List'
+       suma += L[k] ;
+       ^~~~
+exercises.c:64:16: error: dereferencing pointer to incomplete type 'List {aka struct List}'
+       suma += L[k] ;
+                ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+f04edb7

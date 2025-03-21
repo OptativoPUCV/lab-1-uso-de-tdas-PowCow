@@ -111,3 +111,13 @@ exercises.c:63:7: error: invalid use of undefined type 'struct List'
        ^~~~
 Compilation failed
 864fd45
+Fri, Mar 21, 2025 10:38:22 AM: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:62:26: error: dereferencing pointer to incomplete type 'List {aka struct List}'
+    for (int k = 0 ; k < L->size ; k++){
+                          ^~
+Compilation failed
+f46072b

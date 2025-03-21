@@ -278,3 +278,14 @@ Fri, Mar 21, 2025 11:51:12 AM:
  tests:  4|1
 total_score: 50/70
 2c34667
+Fri, Mar 21, 2025 12:05:16 PM: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:126:10: error: 'contador' undeclared (first use in this function)
+          contador-- ;
+          ^~~~~~~~
+exercises.c:126:10: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+aedc6e4

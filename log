@@ -68,3 +68,16 @@ Fri, Mar 21, 2025  9:54:38 AM:
  tests:  1|4
 total_score: 10/70
 2358717
+Fri, Mar 21, 2025 10:15:24 AM: 
+ exercises.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:62:21: error: dereferencing pointer to incomplete type 'List {aka struct List}'
+    for (int k = 0 ; *L != NULL ; k++)
+                     ^~
+exercises.c:63:7: error: invalid use of undefined type 'struct List'
+       suma += L[k] ;
+       ^~~~
+Compilation failed
+dcea46a

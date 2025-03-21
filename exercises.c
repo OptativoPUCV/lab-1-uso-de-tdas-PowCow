@@ -133,7 +133,7 @@ int parentesisBalanceados(char *cadena) {
             return 0 ;
          }
          char flavio = pila[cont] ;
-         if ((par == '(' && flavio == '(') || (par == ']' || flavio == '[') || (par == '}' && flavio == '{')){
+         if ((par == ')' && flavio == '(') || (par == ']' || flavio == '[') || (par == '}' && flavio == '{')){
             cont-- ;
          }
          else{

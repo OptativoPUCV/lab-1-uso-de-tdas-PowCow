@@ -248,3 +248,11 @@ exercises.c:104:4: error: expected ';' before '}' token
     ^
 Compilation failed
 3c02978
+Fri, Mar 21, 2025 11:50:28 AM: 
+In file included from test.c:5:0:
+exercises.c: In function 'copia_pila':
+exercises.c:104:4: error: expected ';' before '}' token
+    }
+    ^
+Compilation failed
+3768887

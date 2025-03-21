@@ -127,3 +127,18 @@ Fri, Mar 21, 2025 10:40:45 AM:
  tests:  2|3
 total_score: 20/70
 4597b2a
+Fri, Mar 21, 2025 11:05:08 AM: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'eliminaElementos':
+exercises.c:84:10: error: too few arguments to function 'pushCurrent'
+          pushCurrent(L) ;
+          ^~~~~~~~~~~
+In file included from exercises.c:6:0,
+                 from test.c:5:
+arraylist.h:23:6: note: declared here
+ void pushCurrent(List *L, void *dato);
+      ^~~~~~~~~~~
+Compilation failed
+37fb94b
